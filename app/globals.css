@@ -596,13 +596,30 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 1.7rem); }
   border-radius: var(--arch);
   pointer-events: none;
 }
-.portrait__ph { color: var(--mauve); }
-.portrait__ph svg { width: 46px; height: 46px; margin: 0 auto .8rem; color: var(--champagne); }
-.portrait__ph span {
-  font-size: .74rem;
-  letter-spacing: .14em;
-  text-transform: uppercase;
+/* branded emblem inside portrait frames (stands in until real photos are added) */
+.emblem {
+  display: grid;
+  place-items: center;
+  gap: .55rem;
+  text-align: center;
+  padding: 1rem;
 }
+.emblem svg { width: 52px; height: 52px; color: var(--champagne); }
+.emblem__name {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  letter-spacing: .22em;
+  color: var(--ink);
+}
+.emblem__sub {
+  font-family: var(--accent);
+  font-style: italic;
+  font-size: 1.1rem;
+  letter-spacing: .02em;
+  color: var(--mauve);
+}
+.section--ink .emblem__name { color: var(--cream); }
+.section--ink .emblem__sub { color: var(--gold-light); }
 
 /* ---------- forms ---------- */
 .form { display: grid; gap: 1.1rem; }

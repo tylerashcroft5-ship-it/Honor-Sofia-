@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Reveal, BookButton, Butterfly } from "@/components/Motion";
+import { Reveal, BookButton, Emblem } from "@/components/Motion";
 import { site } from "@/lib/site";
 
 export const metadata = {
@@ -49,10 +49,7 @@ export default function About() {
         <div className="wrap split">
           <Reveal className="portrait">
             <div className="portrait__frame">
-              <div className="portrait__ph">
-                <Butterfly />
-                <span>Photo of the clinic<br />coming soon</span>
-              </div>
+              <Emblem />
             </div>
           </Reveal>
           <div>

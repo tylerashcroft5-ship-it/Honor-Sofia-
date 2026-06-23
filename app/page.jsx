@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Reveal, Counter, SparkleField, BookButton, Butterfly } from "@/components/Motion";
+import { Reveal, Counter, SparkleField, BookButton, Butterfly, Emblem } from "@/components/Motion";
 import { categories } from "@/lib/menu";
 import { site, instagramUrl } from "@/lib/site";
 
@@ -108,10 +108,7 @@ export default function Home() {
           </div>
           <Reveal delay={0.12} className="portrait">
             <div className="portrait__frame">
-              <div className="portrait__ph">
-                <Butterfly />
-                <span>Clinic photo<br />coming soon</span>
-              </div>
+              <Emblem />
             </div>
           </Reveal>
         </div>
@@ -182,10 +179,7 @@ export default function Home() {
           </div>
           <Reveal delay={0.12} className="portrait">
             <div className="portrait__frame" style={{ background: "radial-gradient(120% 120% at 50% 0%, #6a5560, #4A383C 70%)" }}>
-              <div className="portrait__ph" style={{ color: "var(--gold-light)" }}>
-                <Butterfly />
-                <span style={{ color: "rgba(251,245,241,.7)" }}>Treatment photo<br />coming soon</span>
-              </div>
+              <Emblem />
             </div>
           </Reveal>
         </div>

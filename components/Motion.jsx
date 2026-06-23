@@ -13,6 +13,17 @@ export function Butterfly({ ...props }) {
   );
 }
 
+/* ---------- Emblem: branded crest used inside portrait frames ---------- */
+export function Emblem() {
+  return (
+    <div className="emblem">
+      <Butterfly />
+      <span className="emblem__name">HONOR <span className="gold">SOFIA</span></span>
+      <span className="emblem__sub">Beauty · Energize · Empower</span>
+    </div>
+  );
+}
+
 /* ---------- Reveal: gentle rise-in when scrolled into view ---------- */
 export function Reveal({ as: Tag = "div", delay = 0, className = "", children, ...rest }) {
   const ref = useRef(null);
