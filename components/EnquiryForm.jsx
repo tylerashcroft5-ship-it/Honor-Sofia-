@@ -11,9 +11,7 @@ const INTERESTS = [
   "Hydrafacial",
   "Skin Rejuvenation Package",
   "IV Drip",
-  "Vitamin Injection (B12 / Biotin)",
-  "Lashes / Brows",
-  "Not sure yet — I'd like advice",
+  "Vitamin Injection (B12 / Biotin)",  "Not sure yet — I'd like advice",
 ];
 
 export default function EnquiryForm() {

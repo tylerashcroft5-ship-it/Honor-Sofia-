@@ -11,7 +11,7 @@ export const metadata = {
     template: "%s — Honor Sofia",
   },
   description:
-    "Honor Sofia — luxury aesthetics, skin and IV therapy. Anti-wrinkle, dermal fillers, polynucleotides, PRP, microneedling, Hydrafacial, IV drips, vitamin injections, lashes & brows. Natural-looking results, glowing skin and feel-good wellness.",
+    "Honor Sofia — luxury aesthetics, skin and IV therapy. Anti-wrinkle, dermal fillers, polynucleotides, PRP, microneedling, Hydrafacial, IV drips and vitamin injections. Natural-looking results, glowing skin and feel-good wellness.",
   openGraph: {
     title: "Honor Sofia — Beauty Aesthetics & IV Therapy",
     description: site.tagline,

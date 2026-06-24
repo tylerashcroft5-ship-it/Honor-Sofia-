@@ -72,7 +72,7 @@ export default function About() {
                 At Honor Sofia we believe great aesthetics are about enhancing your natural beauty —
                 never masking it. We offer a full menu of treatments, from anti-wrinkle injections,
                 dermal fillers and skin boosters to PRP, microneedling, Hydrafacials, IV drips,
-                vitamin injections and lash &amp; brow services.
+                vitamin injections and advanced body &amp; wellness therapies.
               </p>
             </Reveal>
             <Reveal delay={0.18}>

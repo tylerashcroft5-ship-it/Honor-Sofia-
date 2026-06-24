@@ -6,7 +6,7 @@ import Showcase from "@/components/Showcase";
 
 const STATS = [
   { to: 30, suffix: "+", label: "Treatments offered" },
-  { to: 12, suffix: "", label: "Treatment categories" },
+  { to: 11, suffix: "", label: "Treatment categories" },
   { to: 100, suffix: "%", label: "Bespoke consultations" },
   { to: 5, suffix: "★", label: "Client-focused care" },
 ];
@@ -57,9 +57,7 @@ export default function Home() {
             <div className="hero__creds">
               <span><i className="dot" /> Aesthetics</span>
               <span><i className="dot" /> Skin &amp; Rejuvenation</span>
-              <span><i className="dot" /> IV Therapy</span>
-              <span><i className="dot" /> Lashes &amp; Brows</span>
-            </div>
+              <span><i className="dot" /> IV Therapy</span>            </div>
           </Reveal>
         </div>
       </section>

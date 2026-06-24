@@ -34,9 +34,7 @@ export default function Footer() {
             <ul>
               <li><Link href="/treatments#anti-wrinkle">Anti-wrinkle</Link></li>
               <li><Link href="/treatments#fillers">Dermal fillers</Link></li>
-              <li><Link href="/treatments#iv-drips">IV drips</Link></li>
-              <li><Link href="/treatments#lashes-brows">Lashes &amp; brows</Link></li>
-            </ul>
+              <li><Link href="/treatments#iv-drips">IV drips</Link></li>            </ul>
           </div>
 
           <div>

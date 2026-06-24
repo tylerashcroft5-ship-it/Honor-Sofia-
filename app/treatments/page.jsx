@@ -6,7 +6,7 @@ import { instagramUrl, site } from "@/lib/site";
 export const metadata = {
   title: "Treatments & Prices",
   description:
-    "The full Honor Sofia treatment menu and price list — anti-wrinkle injections, dermal fillers, skin boosters, polynucleotides, PRP, microneedling, Hydrafacial, IV drips, vitamin injections, lashes and brows.",
+    "The full Honor Sofia treatment menu and price list — anti-wrinkle injections, dermal fillers, skin boosters, polynucleotides, PRP, microneedling, Hydrafacial, IV drips and vitamin injections.",
 };
 
 function PriceRow({ row }) {
