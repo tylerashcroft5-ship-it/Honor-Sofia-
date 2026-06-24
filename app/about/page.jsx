@@ -48,8 +48,18 @@ export default function About() {
       <section className="section">
         <div className="wrap split">
           <Reveal className="portrait">
-            <div className="portrait__frame">
-              <Emblem />
+            <div className="portrait__frame portrait__frame--photo">
+              <video
+                className="portrait__img"
+                poster="/media/clip-4.jpg"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="none"
+              >
+                <source src="/media/clip-4.mp4" type="video/mp4" />
+              </video>
             </div>
           </Reveal>
           <div>

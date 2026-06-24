@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Reveal, Counter, SparkleField, BookButton, Butterfly, Emblem } from "@/components/Motion";
 import { categories } from "@/lib/menu";
 import { site, instagramUrl } from "@/lib/site";
+import Showcase from "@/components/Showcase";
 
 const STATS = [
   { to: 30, suffix: "+", label: "Treatments offered" },
@@ -107,8 +108,13 @@ export default function Home() {
             </Reveal>
           </div>
           <Reveal delay={0.12} className="portrait">
-            <div className="portrait__frame">
-              <Emblem />
+            <div className="portrait__frame portrait__frame--photo">
+              <img
+                className="portrait__img"
+                src="/media/photo-facial.jpg"
+                alt="Honor Sofia practitioner performing a skin treatment"
+                loading="lazy"
+              />
             </div>
           </Reveal>
         </div>
@@ -147,6 +153,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ---------- SHOWCASE ---------- */}
+      <section className="section">
+        <div className="wrap section--center">
+          <Reveal><span className="eyebrow eyebrow--center">Inside the clinic</span></Reveal>
+          <Reveal delay={0.06}>
+            <h2>See us <span className="gold">in action</span></h2>
+          </Reveal>
+          <Reveal delay={0.12}>
+            <p className="lede" style={{ marginInline: "auto" }}>
+              A glimpse of real treatments and results at Honor Sofia.
+            </p>
+          </Reveal>
+        </div>
+        <div className="wrap">
+          <Showcase />
+        </div>
+      </section>
+
       {/* ---------- IV HIGHLIGHT ---------- */}
       <section className="section section--ink">
         <div className="wrap split">
@@ -178,8 +202,13 @@ export default function Home() {
             </Reveal>
           </div>
           <Reveal delay={0.12} className="portrait">
-            <div className="portrait__frame" style={{ background: "radial-gradient(120% 120% at 50% 0%, #6a5560, #4A383C 70%)" }}>
-              <Emblem />
+            <div className="portrait__frame portrait__frame--photo">
+              <img
+                className="portrait__img"
+                src="/media/photo-syringes.jpg"
+                alt="Vitamin and skin booster syringes at the Honor Sofia clinic"
+                loading="lazy"
+              />
             </div>
           </Reveal>
         </div>
@@ -202,6 +231,19 @@ export default function Home() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ---------- BRAND BANNER ---------- */}
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="wrap">
+          <Reveal className="brand-band">
+            <img
+              src="/media/brand-iv.jpg"
+              alt="Honor Sofia Aesthetics & Wellness"
+              loading="lazy"
+            />
+          </Reveal>
         </div>
       </section>
 
