@@ -5,7 +5,7 @@ import { site, instagramUrl } from "@/lib/site";
 
 const STATS = [
   { to: 30, suffix: "+", label: "Treatments offered" },
-  { to: 9, suffix: "", label: "Treatment categories" },
+  { to: 12, suffix: "", label: "Treatment categories" },
   { to: 100, suffix: "%", label: "Bespoke consultations" },
   { to: 5, suffix: "★", label: "Client-focused care" },
 ];
